@@ -1,0 +1,14 @@
+@use './variables' as *;
+
+.main-navbar {
+  padding: 1rem 0;
+  background-color: $color-secondary; 
+}
+
+.logo {
+  width: 200px;
+}
+
+.navbar-links {
+  color: black;
+}

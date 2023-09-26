@@ -11,10 +11,9 @@
   <link rel="icon" type="image/x-icon" href="https://boolean.careers/favicon/favicon.ico">
 </head>
 <body>
-  
-  <main>
+  @include('partials.navbar')
+  <main class="main-content">
     @yield('content')
   </main>
-
 </body>
 </html>
